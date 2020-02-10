@@ -2,7 +2,7 @@ package com.revolut.moneytransfer.usecase.dto;
 
 import java.math.BigDecimal;
 
-public class CreateAccount {
+public final class CreateAccount {
     private final String number;
     private final BigDecimal balance;
 
